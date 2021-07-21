@@ -38,8 +38,8 @@ main {
     display: flex;
     justify-self: left;
     width: 675px;
+    padding: 20px;
     flex-direction: column;
-    background-color: teal;
 }
 
 #trybewarts-forms-logo {
