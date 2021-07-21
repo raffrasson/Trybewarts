@@ -4,13 +4,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <title>Trybewarts</title>
 </head>
 <body>
   <header class="header">
       <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="Logo Trybewarts">
-      
-  </header>
+      <h1 id="trybewarts-header-title">Trybewarts</h1>
+      <form class="trybewarts-login">
+        <input type="email" class="m-1 form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Login">
+        <input type="password" class="m-1 form-control" id="inputSenha" placeholder="Senha">
+        <button type="button" class="m-1 btn btn-primary" id="botaoLogin">Entrar</button>
+    </form>
+    
+</header>
+  <script src="script.js"></script>
 </body>
 </html>
