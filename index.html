@@ -13,18 +13,26 @@
       <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="Logo Trybewarts">
       <h1 id="trybewarts-header-title">Trybewarts</h1>
       <form class="trybewarts-login">
-        <input type="email" class="m-1 form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Login">
+        <input type="email" class="m-1 form-control" id="inputEmail" placeholder="Login">
         <input type="password" class="m-1 form-control" id="inputSenha" placeholder="Senha">
         <button type="button" class="m-1 btn btn-primary" id="botaoLogin">Entrar</button>
     </form>
 </header>
 <main>
     <form id="evaluation-form">
-        <input type="nome" class="m-1 form-control" id="input-name" placeholder="Nome">
-        <input type="sobrenome" class="m-1 form-control" id="input-lastname" placeholder="Sobrenome">
-        <input type="email" class="m-1 form-control" id="input-email" aria-describedby="emailHelp" placeholder="Email">
+        <div id="nomeSobrenome">
+            <input type="nome" class="mr-1 form-control" id="input-name" placeholder="Nome">
+        <input type="sobrenome" class="form-control" id="input-lastname" placeholder="Sobrenome">
+        </div>
+        <input type="email" class="my-1 form-control" id="input-email" placeholder="Email">
     </form>
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="logo da Trybewarts colorido">
+    <select class="form-select" id="house">
+        <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+        <option id="reactpuff-house"value="Reactpuff">Reactpuff</option>
+        <option id="corvinode-house"value="Corvinode">Corvinode</option>
+        <option id="pytherina-house"value="Pytherina">Pytherina-</option>
+    </select>
 </main>
   <script src="script.js"></script>
 </body>

@@ -29,6 +29,7 @@
 
 main {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     align-content: space-between;
     justify-content: space-between;
@@ -40,10 +41,15 @@ main {
     width: 675px;
     padding: 20px;
     flex-direction: column;
-}
+    }
 
 #trybewarts-forms-logo {
     display: flex;
     justify-self: right;
     height: 500px;
+}
+
+#nomeSobrenome {
+    display: flex;
+    
 }
