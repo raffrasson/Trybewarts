@@ -56,8 +56,3 @@ main {
 #emailCasa {
   display: flex;
 }
-
-#subjecto {
-  display: flex;
-  align-items: baseline;
-}
