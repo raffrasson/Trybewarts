@@ -18,3 +18,17 @@ function login() {
   }
 }
 botaoLogin.addEventListener('click', login);
+
+const btnEnvia = document.getElementById('submit-btn');
+
+btnEnvia.disabled = true;
+
+const botaoAgree = document.querySelector('#agreement');
+
+botaoAgree.addEventListener('click', () => {
+  if (btnEnvia.disabled === true) {
+    btnEnvia.disabled = false;
+  } else {
+    btnEnvia.disabled = true;
+  }
+});
