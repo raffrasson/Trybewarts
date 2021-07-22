@@ -33,11 +33,18 @@
             <option id="pytherina-house"value="Pytherina">Pytherina-</option>
         </select>
         </div>
-        <label id="label-family">Qual sua Familia?<br>
-          <input type="radio" name="family" value="Frontend">Frontend <br>
-          <input type="radio" name="family" value="Backend">Backend <br>
-          <input type="radio" name="family" value="FullStack">FullStack <br>
-        </label>
+        <label id="label-family">Qual sua Familia?</label>
+        <label for="front"><input id="front" type="radio" name="family" value="Frontend">Frontend</label>
+        <label for="back"><input id="back" type="radio" name="family" value="Backend">Backend</label>
+        <label for="full"><input id="full" type="radio" name="family" value="FullStack">FullStack</label>
+        <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+        <div id="subjecto"><input type="checkbox" name="subjecto" class="subject" value="HoFs">HoFs
+        <input type="checkbox" name="subjecto" class="subject" value="Jest">Jest
+        <input type="checkbox" name="subjecto" class="subject" value="Promises">Promises
+        <input type="checkbox" name="subjecto" class="subject" value="React">React
+        <input type="checkbox" name="subjecto" class="subject" value="SQL">SQL
+        <input type="checkbox" name="subjecto" class="subject" value="Python">Python
+        </div>
     </form>
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="logo da Trybewarts colorido">
 </main>
