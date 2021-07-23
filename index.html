@@ -15,28 +15,30 @@
       <form class="trybewarts-login">
         <input type="email" class="m-1 form-control" id="inputEmail" placeholder="Login">
         <input type="password" class="m-1 form-control" id="inputSenha" placeholder="Senha">
-        <button type="button" class="m-1 btn btn-primary" id="botaoLogin">Entrar</button>
+        <button type="button" class="m-1 btn btn-primary" aria-pressed="true" id="botaoLogin">Entrar</button>
     </form>
 </header>
 <main>
-    <form id="evaluation-form">
+  <form id="evaluation-form" class="m-1 p-1 d-flex flex-column">
         <div id="nomeSobrenome">
-            <input type="nome" class="mr-1 form-control" id="input-name" placeholder="Nome">
-        <input type="sobrenome" class="form-control" id="input-lastname" placeholder="Sobrenome">
+            <input type="nome" class="mr-1 my-1 form-control" id="input-name" placeholder="Nome">
+        <input type="sobrenome" class="ml-1 my-1 form-control" id="input-lastname" placeholder="Sobrenome">
         </div>
         <div id="emailCasa">
-          <input type="email" class="my-1 form-control" id="input-email" placeholder="Email">
-          <select class="form-select" id="house">
+          <input type="email" class="mr-1 my-1 form-control" id="input-email" placeholder="Email">
+          <select class="ml-1 my-1 form-control" id="house">
             <option id="gitnoria-house" value="Gitnória">Gitnória</option>
             <option id="reactpuff-house"value="Reactpuff">Reactpuff</option>
             <option id="corvinode-house"value="Corvinode">Corvinode</option>
-            <option id="pytherina-house"value="Pytherina">Pytherina-</option>
+            <option id="pytherina-house"value="Pytherina">Pytherina</option>
         </select>
         </div>
-        <label id="label-family">Qual sua família?</label>
+        <hr class="my-3" />
+        <label  id="label-family">Qual sua família?</label>
         <label for="front"><input id="front" type="radio" name="family" value="Frontend">Frontend</label>
         <label for="back"><input id="back" type="radio" name="family" value="Backend">Backend</label>
         <label for="full"><input id="full" type="radio" name="family" value="FullStack">FullStack</label>
+        <hr class="my-3" />
         <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
         <div id="subjecto"><input type="checkbox" name="subjecto" class="subject" value="HoFs">HoFs
         <input type="checkbox" name="subjecto" class="subject" value="Jest">Jest
@@ -46,6 +48,7 @@
         <input type="checkbox" name="subjecto" class="subject" value="Python">Python
         </div>
         <div>
+          <hr class="my-3" />
           <label id="label-rate">Como você avalia a Trybewarts?</label>
           <input type="radio" name="rate" class="ratio" value="1">1
           <input type="radio" name="rate" class="ratio" value="2">2
@@ -59,10 +62,11 @@
           <input type="radio" name="rate" class="ratio" value="10">10
         </div>
         <label class="textarea">Deixe seu comentário: <br><textarea name="coment" cols="50" rows="5" maxlength="500"></textarea></label>
+        <hr class="my-3" />
         <label id="label-infos">Você concorda com o uso das informações acima? <input type="checkbox" name="agree" id="agreement" required></label>
-        <button type="submit" id="submit-btn">Enviar</button>
+        <button class="btn btn-primary" type="submit" id="submit-btn">Enviar</button>
     </form>
-    <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="logo da Trybewarts colorido">
+    <img class="mx-auto d-block" id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="logo da Trybewarts colorido">
 </main>
 <footer>Direitos reservados à Trybewarts©</footer>
   <script src="script.js"></script>

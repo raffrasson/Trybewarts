@@ -4,20 +4,26 @@
   flex-direction: row;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 .trybewarts-header-logo {
   display: flex;
   height: 50px;
   align-self: center;
+  justify-self: flex-start;
+  left: 0;
 }
 
 .trybewarts-login {
   display: flex;
   flex-direction: row;
   padding: 10px;
+  justify-self: flex-end;
+  align-self: center;
+  right: 0;
 }
-
 
 #trybewarts-header-title {
   display: flex;
@@ -31,15 +37,13 @@ main {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  align-content: space-between;
   justify-content: space-between;
+  flex-direction: row;
 }
 
 #evaluation-form {
   display: flex;
-  justify-self: left;
   width: 675px;
-  padding: 20px;
   flex-direction: column;
 }
 
@@ -55,4 +59,85 @@ main {
 
 #emailCasa {
   display: flex;
+}
+
+hr {
+  border: 2px;
+  border-style: solid;
+  border-color: rgb(50, 167, 145);
+  width: 100%;
+  opacity: 0.6;
+}
+
+/* A customização de botões usou a seguinte referência: https://stackoverflow.com/questions/32495588/bootstrap-button-active-and-target-styling-not-working */
+
+.btn {
+  background-color: rgb(33, 126, 109);
+  border-color: rgb(33, 126, 109);
+}
+
+.btn:hover {
+  background-color: rgb(21, 78, 68);
+  border-color: rgb(33, 126, 109);
+}
+
+.btn:disabled {
+  background-color: rgb(34, 117, 102);
+  border-color: rgb(33, 126, 109);
+}
+
+.btn:focus {
+  background-color: rgb(38, 150, 129);
+  border-color: rgb(33, 126, 109);
+}
+
+.btn:active {
+  background-color: rgb(38, 150, 129);
+  border-color: rgb(33, 126, 109);
+}
+
+.btn:hover:focus:active {
+  border-color: rgb(51, 182, 160);
+  box-shadow: 0 0 0 3px rgb(17, 59, 52) !important;
+  outline-color: 0 0 0 3px rgb(30, 104, 91) !important;
+}
+
+.btn:active:focus {
+  border-color: rgb(57, 199, 175);
+  box-shadow: 0 0 0 3px rgb(51, 182, 160) !important;
+  outline-color: 0 0 0 3px rgb(30, 104, 91) !important;
+}
+
+.btn:hover:active:focus {
+  background-color: rgb(64, 179, 158);
+  outline-color: 0 0 0 3px rgb(26, 92, 81) !important;
+  box-shadow: 0 0 0 3px rgb(17, 59, 52) !important;
+}
+
+/* A customização de radio usou a seguinte referência: https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-buttons */
+
+input[type='radio']:checked:after {
+  width: 13px;
+  height: 13px;
+  border-radius: 11px;
+  margin-top: px;
+  margin-left: px;
+  background-color: rgb(64, 179, 158);
+  content: '';
+  display: flex;
+  visibility: visible;
+}
+
+/* utilizando a mesma lógica do radio pode-se customizar o checkbox */
+
+input[type='checkbox']:checked:after {
+  width: 13px;
+  height: 13px;
+  border-radius: 3px;
+  margin-top: px;
+  margin-left: px;
+  background-color: rgb(64, 179, 158);
+  content: '';
+  display: flex;
+  visibility: visible;
 }
