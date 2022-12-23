@@ -6,7 +6,7 @@ Página desenvolvida em conjunto com o colega Filipe Andrade, demonstrando respo
 ### Habilidades trabalhadas
 * Criação de formulário com diversos campos e formas de preenchê-los (texto, checkbox, radio...);
 * Uso de Flexbox para responsividade;
-* uso da biblioteca Bootstrap.
+* Uso da biblioteca Bootstrap.
 
 ## Técnologias usadas
 
