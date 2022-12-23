@@ -1,13 +1,21 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Trybewarts
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+# Contexto
+Página desenvolvida em conjunto com o colega Filipe Andrade, demonstrando responsividade e diversos métodos de preenchimento de formulário.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+### Habilidades trabalhadas
+* Criação de formulário com diversos campos e formas de preenchê-los (texto, checkbox, radio...);
+* Uso de Flexbox para responsividade;
+* uso da biblioteca Bootstrap.
+
+## Técnologias usadas
+
+Front-end:
+> Desenvolvido usando: HTML5, CSS3, Javascript ES6.
+
+## Executando a aplicação
+
+* Acesse a página via *GitHub Pages* clicando [aqui.](https://raffrasson.github.io/Trybewarts/)
+
+## Notas e referências:
+Alguns arquivos gráficos foram fornecidos pela Trybe Escola de Programação: a imagem do brasão e a logo "T" no cabeçalho.
